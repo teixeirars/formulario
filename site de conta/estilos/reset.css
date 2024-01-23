@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #0f0f0f;
+ }
+ 
+ 
+ html {
+     font-family: Arial, Helvetica, sans-serif;
+     color: #ffff;
+ }
+ 
+
+ input {
+    width: 100%;
+    padding: 15px;
+    color: #ffff;
+}
+
+
+label , #email , #senha , #Nome , #sexo  , legend , section , #enviar , ul  {
+    background: none;
+}
+
+.bank h1 {
+    background: none;
+}
+
+#email , #senha , #Nome , #sexo , #enviar {
+    border-radius: 15px;
+    border: 2px solid #16db93;
+}
+
+
+button {
+    color: #ffff;
+}
+
+.logo h1:hover {
+    transition: 750ms;
+    transform: scale(1.09);
+}
+
+.logo img:hover {
+    transition: 750ms;
+    transform: scale(1.09);
+}
+
+#enviar:hover {
+    background-color: #16db93;
+    transition: 2s all ease-out;
+}
+ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 15px;
+    gap: 15px;
+    
+}
+
+
+a {
+    color: #ffff;
+    text-decoration: none;
+    background: none;
+    font-size: 16px;
+}
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #16db93;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 778px) {
+    .bank  {
+       font-size: 15px;
+        
+    }
+
+    .bank h1 {
+        margin: 10px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 240px;
+    }
+
+
+    form {
+        padding: 5px 95px 15px 15px;
+        width: 100px;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
